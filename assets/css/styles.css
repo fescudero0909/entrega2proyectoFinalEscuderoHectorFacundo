@@ -70,6 +70,10 @@ footer{
 .footerFCM{
     background-color:rgb(171, 1, 50);
 }
+.redes{
+    width: 50px;
+}
+
 @keyframes aparecer{
     0%{
         opacity: 0;
