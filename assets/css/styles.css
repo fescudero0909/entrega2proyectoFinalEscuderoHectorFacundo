@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-color{
+    background-color:rgb(0, 102, 51);
+}
+.bg-colorFCM{
+    background-color:rgb(171, 1, 50);
+}
+.navbar-brand{
+    animation-name: aparecer;
+    animation-duration: 2s;
+}
+
+.nav-link{
+    color: white;
+    font-family:"Ubuntu";
+}
+.titulo{
+    font-family:"Ubuntu";
+}
+.parrafo{
+    font-family:"Ubuntu";
+}
+
+.frase{
+    font-family: "Ubuntu";
+    font-style: italic;
+}
+.bg-colorCursos{
+    background-color: #d5d2d2;
+}
+main{
+    font-family: "Ubuntu";
+}
+.objeto{
+    background-color: #d5d2d2;
+}
+.fotoCurso{
+    transition: all 1s;
+}
+.fotoCurso:hover{
+    transform: translate(0px,-15px) scale(1.1) ;
+}
+
+.btn{
+    width: 100px;
+    color: white;
+    border-radius: 5%;
+}
+.btnFundi{
+    color: white;
+    border-radius: 10%;
+}
+aside{
+    font-family: "Ubuntu";
+}
+.areas{
+    font-style: oblique;
+    list-style: none;
+}
+footer{
+    background-color:rgb(0, 102, 51); 
+}
+.footerFCM{
+    background-color:rgb(171, 1, 50);
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
